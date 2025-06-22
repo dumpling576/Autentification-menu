@@ -1,0 +1,158 @@
+body{
+    background-color: #dfe0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+#LoginLightBtn {
+    background-color: #000000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#LoginDarkBtn {
+    background-color: #ffffff; 
+    border: 1px solid #000000;
+    color: rgb(0, 0, 0);
+    padding: 14px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    /* font-weight: bold; */
+}
+
+label[for="text"] {
+    text-align: center;
+    display: block;
+    font-weight: normal;
+
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 16px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 600px;
+    position: relative;
+    height: auto;
+    margin: 50px auto;
+
+}
+
+h2 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.two_btn_1line {
+    display: flex;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.forgot-row {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.forgot-link {
+    color: #68a4c4;
+    text-decoration: none;
+    margin-right: 3px;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+.signup-row {
+    margin-top: 18px;
+    text-align: center;
+}
+
+.signup-link {
+    color: #68a4c4;
+    text-decoration: none;
+    
+}
+
+.signup-link:hover {
+    text-decoration: underline;
+}
+
+.required {
+    color: #c21210;
+    margin-left: 2px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 0;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 210px;
+}
+
+.brand-title {
+    font-size: 34px;
+    font-weight: 450;
+    margin-left: 10px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.social-row {
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin: 10px 0 18px 0;
+}
+.social-btn {
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0;
+}
+.social-btn img {
+    width: 24px;
+    height: 24px;
+}
