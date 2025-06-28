@@ -1,0 +1,410 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background-color: #fafafa;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: 700;
+  color: #0071c5;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #333;
+  font-weight: 500;
+}
+
+.hero-carousel {
+  position: relative;
+}
+
+.hero-carousel .carousel-caption {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+  text-align: left;
+  color: #fff;
+  text-shadow: 0 2px 6px rgba(0, 0, 0, 0.75);
+}
+
+.carousel-caption h5 {
+  font-size: 2rem;
+  font-weight: 700;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.hero-carousel .carousel-caption .btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+.hero-carousel .carousel-item img {
+  height: 500px; /* можно изменить по вкусу */
+  object-fit: cover;
+  width: 100%;
+}
+
+
+/* Categories */
+
+.categories {
+  background: #f8f9fa;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.cat-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 24px 16px 20px 16px;
+  background: #fff;
+  transition: box-shadow 0.3s, transform 0.3s;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* добавлено */
+}
+
+.cat-card:hover {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  transform: translateY(-6px) scale(1.03);
+}
+
+.cat-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  border-radius: 8px;
+  margin-bottom: 18px;
+  background: #f4f4f4;
+  padding: 8px;
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cat-card h5 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin-bottom: 16px;
+  color: #222;
+  min-height: 32px; /* добавлено для одинаковой высоты */
+}
+
+.cat-card .btn-group {
+  gap: 8px;
+}
+
+.cat-card .btn {
+  border-radius: 20px;
+  padding: 0.4rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.main-cat-card {
+  border: 1px solid #bbb;
+  border-radius: 10px;
+  background: #fff;
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.2s;
+  padding: 24px 12px 12px 12px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-cat-card:hover {
+  box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+  transform: translateY(-4px) scale(1.02);
+}
+
+.main-cat-card img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 18px;
+}
+
+.main-cat-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 0;
+}
+
+/* --- PROMO SECTION --- */
+.promo {
+  background-color: #fff;
+  padding: 64px 0 64px 0;
+  text-align: center;
+}
+
+.promo h2 {
+  font-size: 2.8rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: #222;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  letter-spacing: -1px;
+}
+
+.promo p {
+  font-size: 1.35rem;
+  color: #444;
+  margin-bottom: 2.2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
+}
+
+.promo .btn {
+  font-size: 1.15rem;
+  padding: 0.7rem 2.2rem;
+  border-radius: 24px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* Footer */
+.hp-footer {
+  position: relative;
+  min-height: 420px;
+  background: url('footer-bg.jpg') center center/cover no-repeat;
+  color: #fff;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.footer-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.78);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.footer-flex {
+  display: flex;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 60px 40px 60px 40px;
+  box-sizing: border-box;
+}
+
+.footer-content {
+  flex: 1 1 40%;
+  min-width: 320px;
+  z-index: 2;
+}
+
+.footer-content h2 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  line-height: 1.1;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.55), 0 1px 0 #000;
+}
+
+.footer-content p {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  font-weight: 400;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.55), 0 1px 0 #000;
+}
+
+.footer-social {
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin-top: 24px;
+}
+
+.footer-social a {
+  color: #fff;
+  font-size: 2.3rem;
+  transition: color 0.2s;
+  opacity: 1;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+.footer-social a:hover {
+  color: #00b6f0;
+  opacity: 1;
+}
+
+.footer-links-area {
+  flex: 1 1 60%;
+  min-width: 320px;
+  background: transparent;
+  padding: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* выравнивание аккордеона вправо */
+}
+
+.footer-accordion {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 32px;
+  background: transparent;
+  border-radius: 8px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.footer-accordion-btn {
+  background: none;
+  color: #fff;
+  border: none;
+  outline: none;
+  width: 100%;
+  text-align: left;
+  padding: 18px 24px;
+  font-size: 1.08rem;
+  font-family: inherit;
+  cursor: pointer;
+  border-bottom: 1px solid #222;
+  transition: background 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.footer-accordion-btn:hover {
+  background: #222;
+}
+
+.footer-accordion-panel {
+  display: none;
+  background: #181818;
+  padding: 0 24px 12px 24px;
+}
+
+.footer-flag {
+  font-size: 1.2em;
+  margin-right: 6px;
+}
+
+@media (max-width: 900px) {
+  .footer-flex {
+    flex-direction: column;
+    gap: 0;
+    padding: 32px 8px 32px 8px;
+  }
+  .footer-content, .footer-links-area {
+    min-width: 0;
+    width: 100%;
+  }
+  .footer-content h2 { font-size: 2.2rem; }
+  .footer-content p { font-size: 1.1rem; }
+  .footer-links-area {
+    align-items: stretch;
+  }
+  .footer-accordion {
+    max-width: 100%;
+    margin-top: 24px;
+  }
+  .footer-content {
+    padding-bottom: 32px;
+  }
+}
+
+
+.footer-legal {
+  background: #111;
+  color: #ccc;
+  padding: 32px 0 0 0;
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 32px; /* добавлено */
+}
+
+/* Убираем полностью отступ между футером и legal links */
+.footer-legal.mt-4 {
+  margin-top: 0 !important;
+  padding-top: 0;
+}
+
+/* Стили для вертикального списка legal links с подпунктами */
+.footer-legal-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px;              /* увеличенный промежуток между столбцами */
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 8px;
+  line-height: 1.7;
+  text-align: left;
+  padding-left: 40px;     /* отступ от левого края */
+  box-sizing: border-box;
+}
+
+.footer-legal-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+
+/* Основные пункты */
+.footer-legal-links a {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.85;
+  margin: 0;
+  transition: opacity 0.2s;
+  font-size: 0.97rem;
+  display: block;
+  padding: 2px 0;
+}
+
+/* Подпункты */
+.footer-legal-links .footer-legal-sub {
+  margin-left: 18px;
+  font-size: 0.93rem;
+  opacity: 0.7;
+  display: block;
+  padding: 2px 0;
+}
+
+.footer-legal-links a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  color: #aaa;
+  font-size: 0.93rem;
+  margin-bottom: 16px;
+}
+
+@media (max-width: 700px) {
+  .footer-legal-links {
+    flex-direction: column;
+    gap: 0.5em;
+    padding-left: 16px;   /* меньше отступ на мобильных */
+  }
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HP — Official Site</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="general.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand" href="#">HP</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="laptopsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Laptops & Desktops
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="laptopsDropdown">
+            <li><a class="dropdown-item" href="#">EliteBook</a></li>
+            <li><a class="dropdown-item" href="#">Spectre</a></li>
+            <li><a class="dropdown-item" href="#">Envy</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#">Printers & Ink</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Monitors & Accessories</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Gaming</a></li>
+      </ul>
+      </div>
+      <form class="d-flex me-3">
+          <input class="form-control me-2" type="search" placeholder="Search">
+          <button class="btn btn-outline-primary" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <!-- Hero Carousel Section -->
+<section class="hero-carousel">
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <!-- Slide 1 -->
+      <div class="carousel-item active position-relative">
+        <img src="hero1.jpeg" class="d-block w-100" alt="First slide">
+        <div class="carousel-caption text-start">
+          <h5>HP + Google Beam.</h5>
+          <p>Next-generation collaboration, crystal-clear communication.</p>
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item position-relative">
+        <img src="hero2.jpeg" class="d-block w-100" alt="Second slide">
+        <div class="carousel-caption text-start">
+          <h5>HP Innovation</h5>
+          <p>Experience seamless performance and reliable engineering.</p>
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item position-relative">
+        <img src="hero3.jpeg" class="d-block w-100" alt="Third slide">
+        <div class="carousel-caption text-start">
+          <h5>EliteBook. Sleek Power.</h5>
+          <p>Next-generation collaboration, crystal-clear communication.Designed for productivity and elegance on the go.</p>
+          <a href="#" class="btn btn-primary">Shop Now</a>
+        </div>
+      </div>
+    </div>
+    <!-- Стрелка "назад" -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <!-- Стрелка "вперёд" -->
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+  <!-- Categories Section -->
+  <section class="categories py-5">
+    <div class="container text-center">
+      <div class="row g-4 main-categories">
+        <div class="col-md-4">
+          <div class="main-cat-card" data-target="printers">
+            <img src="printer.jpg" alt="Printers">
+            <div class="main-cat-title">Printers, Cartridges & Paper</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="main-cat-card" data-target="pcs">
+            <img src="laptop.jpg" alt="PCs">
+            <div class="main-cat-title">PCs</div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="main-cat-card" data-target="monitors">
+            <img src="monitor.jpg" alt="Monitors">
+            <div class="main-cat-title">Monitors & Accessories</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Подкатегории -->
+      <div class="subcategories mt-5" id="printers" style="display:none;">
+        <h4>Printers, Cartridges & Paper</h4>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="cat-card">
+              <img src="printer1.jpg" alt="Home Printers">
+              <h5>Home Printers</h5>
+              <div class="btn-group">
+                <a href="#" class="btn btn-outline-primary">Learn</a>
+                <a href="#" class="btn btn-primary">Shop</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cat-card">
+              <img src="printer2.jpg" alt="Business Printers">
+              <h5>Business Printers</h5>
+              <div class="btn-group">
+                <a href="#" class="btn btn-outline-primary">Learn</a>
+                <a href="#" class="btn btn-primary">Shop</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cat-card">
+              <img src="cartridge.jpg" alt="Cartridges & Paper">
+              <h5>Cartridges & Paper</h5>
+              <div class="btn-group">
+                <a href="#" class="btn btn-outline-primary">Learn</a>
+                <a href="#" class="btn btn-primary">Shop</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="subcategories mt-5" id="pcs" style="display:none;">
+        <h4>PCs</h4>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="cat-card">
+              <img src="laptop1.jpg" alt="Laptops">
+              <h5>Laptops</h5>
+              <div class="btn-group">
+                <a href="#" class="btn btn-outline-primary">Learn</a>
+                <a href="#" class="btn btn-primary">Shop</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cat-card">
+              <img src="desktop.jpg" alt="Desktops">
+              <h5>Desktops</h5>
+              <div class="btn-group">
+                <a href="#" class="btn btn-outline-primary">Learn</a>
+                <a href="#" class="btn btn-primary">Shop</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cat-card">
+              <img src="gaming.jpg" alt="Gaming">
+              <h5>Gaming</h5>
+              <div class="btn-group">
+                <a href="#" class="btn btn-outline-primary">Learn</a>
+                <a href="#" class="btn btn-primary">Shop</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="subcategories mt-5" id="monitors" style="display:none;">
+        <h4>Monitors & Accessories</h4>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="cat-card">
+              <img src="monitor1.jpg" alt="Monitors">
+              <h5>Monitors</h5>
+              <div class="btn-group">
+                <a href="#" class="btn btn-outline-primary">Learn</a>
+                <a href="#" class="btn btn-primary">Shop</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="cat-card">
+              <img src="accessory.jpg" alt="Accessories">
+              <h5>Accessories</h5>
+              <div class="btn-group">
+                <a href="#" class="btn btn-outline-primary">Learn</a>
+                <a href="#" class="btn btn-primary">Shop</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promo Section -->
+  <section class="promo py-5">
+    <div class="container text-center">
+      <h2>Introducing HP Learning</h2>
+      <p>With the right tools, homework doesn’t have to feel like work.</p>
+      <a href="#" class="btn btn-primary btn-lg">Explore</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="hp-footer">
+    <div class="footer-overlay">
+      <div class="footer-flex">
+        <div class="footer-content">
+          <h2>Let's be friends</h2>
+          <p>Get product tips, lifestyle tricks, and a window into our HP family.</p>
+          <div class="footer-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Legal links вынесены отдельно -->
+  <div class="footer-legal mt-4">
+    <div class="footer-copyright mt-2">
+      ©2025 HP Development Company, L.P. The information contained herein is subject to change without notice.
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    
+    document.querySelectorAll('.main-cat-card').forEach(card => {
+      card.addEventListener('click', function() {
+        document.querySelectorAll('.subcategories').forEach(sub => sub.style.display = 'none');
+        const target = this.getAttribute('data-target');
+        document.getElementById(target).style.display = 'block';
+       
+        document.getElementById(target).scrollIntoView({behavior: "smooth"});
+      });
+    });
+    document.querySelectorAll('.footer-accordion-btn').forEach(btn => {
+    btn.addEventListener('click', function() {
+      const panel = this.nextElementSibling;
+      if (panel.style.display === "block") {
+        panel.style.display = "none";
+      } else {
+        document.querySelectorAll('.footer-accordion-panel').forEach(p => p.style.display = "none");
+        panel.style.display = "block";
+      }
+    });
+  });
+  </script>
+</body>
+</html>
